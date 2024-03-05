@@ -100,11 +100,11 @@ class _RegisterState extends State<Register> {
                     child: ElevatedButton(
                         onPressed: () {
                           if (formKey.currentState!.validate()) {
-                              Navigator.of(context)
-                                  .pushReplacement(MaterialPageRoute(
-                                builder: (context) => const Chat_View(),
-                              ));
-                            }
+                            Navigator.of(context)
+                                .pushReplacement(MaterialPageRoute(
+                              builder: (context) => const Chat_View(),
+                            ));
+                          }
                         },
                         style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.blueAccent,
@@ -137,11 +137,11 @@ class _RegisterState extends State<Register> {
                       TextButton(
                         onPressed: () {
                           if (formKey.currentState!.validate()) {
-                              Navigator.of(context)
-                                  .pushReplacement(MaterialPageRoute(
-                                builder: (context) => const Chat_View(),
-                              ));
-                            }
+                            Navigator.of(context)
+                                .pushReplacement(MaterialPageRoute(
+                              builder: (context) => const Chat_View(),
+                            ));
+                          }
                         },
                         child: TextButton(
                           onPressed: () {
